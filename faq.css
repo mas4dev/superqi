@@ -1,0 +1,202 @@
+body{
+    background-color: #202020!important;
+    color: #fff !important;
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+h1{
+    margin-top: 50px 0 30px;
+    text-align: center;
+}
+.faq5edline{
+    padding-top: 5%;
+}
+.faq-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.faq{
+    background-color: transparent;
+    border: 1px solid #fff2b2;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.faq:hover{
+    background-color: #ffd100;
+}
+
+.faq.active{
+ background-color: #ffb700;
+ border: 3px solid #9fa4a8;
+ box-shadow: 0 3px 6px rgba(0,0,0,0,1), 0 3px 6px rgba(0,0,0,0,1);
+}
+
+.faq-title{
+    margin: 0 35px 0 0;
+}
+.faq-text{
+    display: none;
+    margin: 30px 0 0;
+}
+
+.faq.active .faq-text{
+    display: block;
+}
+.faq-toggle{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.faq-toggle .fa-xmark{
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-xmark{
+    display: block;
+}
+
+.navigationbar{
+    padding-left: 100%;
+    }
+
+    .logo {
+        position: absolute !important;
+        width: 199.651px !important;
+        height: 70px !important;
+        margin: 40px !important;
+      }
+
+      .navbar {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar-nav {
+        margin-left: auto;
+      }
+      
+      .navbar-nav .nav-item {
+        margin: 0 10px;
+      }
+      
+      .navbar-nav .nav-link {
+        font-size: 21px;
+        color: #fff;
+        font-family: 'Tajawal', sans-serif;
+      }
+      .navbar-nav .nav-link:hover{
+        color: #FCC361;
+      }
+
+      #footer {
+        text-align: center;
+        background-color: #ffd100;
+        color: #fff;
+        margin-top: 3%;
+        padding: 2% 10%;
+        }
+        .soicalmicons {
+        margin: 20px 10px;
+        color: #ffffff;
+        }
+        
+        .linksar{
+        text-decoration: none;
+        font-family: 'Tajawal', sans-serif;
+        color: #219ebc;
+        font-size: 1.1rem;
+        }
+        
+        footer {
+          font-family: 'Tajawal', sans-serif;
+        background-color: #edc531;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        }
+        
+        .footer-parent {
+        text-align: center;
+        }
+        
+        .footer-links,
+        .footer-office,
+        .footer-social-media {
+        list-style: none;
+        padding: 0;
+        }
+        
+        .footer-links li,
+        .footer-office li,
+        .footer-social-media li {
+        margin-bottom: 5px;
+        }
+        
+        .footer-links a {
+        text-decoration: none;
+        color: #fff;
+        }
+        
+        .footer-links a:hover {
+        color: #FCC361;
+        }
+        .linksfheadline:hover{
+        color: #FCC361;
+        }
+        .footer-social-media li {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 20px;
+        }
+        .linksfheadline{
+            text-decoration: none;
+            color: #fff;
+        }
+        a{
+            text-decoration: none;
+          }  
+          
+          .dierctlin7s{
+            color: #FCC361;
+            text-decoration: none;
+          }
+          .dierctlin7s:hover{
+            color: #0B8AFF;
+          }
+
+          /* mobile */
+          @media (max-width: 767px) {
+
+ .logo {
+    width: 230.651px;
+    height: 50px;
+  padding-left: 0% !important;
+  }
+
+
+  .faq5edline{
+margin-top: 20%;
+  }
+          }
