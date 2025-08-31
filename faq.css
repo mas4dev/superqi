@@ -188,7 +188,7 @@ h1{
 
           /* mobile */
           @media (max-width: 767px) {
- .logo {
+  .logo {
 position: relative !important;
     width: 50% !important;
     height: 30%;
@@ -209,3 +209,4 @@ margin-top: 0%;
 
   }
           }
+
