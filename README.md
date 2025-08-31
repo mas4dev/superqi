@@ -1,2 +1,0 @@
-# superqi
-SuperQi knoweldge Base
